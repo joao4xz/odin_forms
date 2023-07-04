@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'JapanFont';
+  src: url('./assets/fonts/SAKURATA.woff2');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.bg-image {
+  background-image: url(./assets/images/Image.gif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40vw;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.45);
+  padding: 1rem;
+  gap: 2rem;
+  position: relative;
+  top: 20vh;
+}
+
+.header h1 {
+  font-family: JapanFont;
+  color: #eee ;
+  font-size: 3rem;
+}
