@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
+  <div class="content">
     <aside>
       <div class="bg-image">
         <div class="header">
@@ -19,7 +19,48 @@
       </div>
     </aside>
     <section>
-
+      <div class="container">
+        <p class="heading-text">
+          This is not a real online service! You know you need something like this in your life to help you realize your deepest dream.
+        </p>
+        <p class="heading-text">
+          Sign up <em>now</em> to get started.
+        </p>
+        <p class="heading-text">
+          You <em>know</em> you want to.
+        </p>
+        <form action="#">
+          <fieldset>
+            <legend>Let's do this!</legend>
+            <div class="input-box">
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" id="first-name" name="first-name">
+            </div>
+            <div class="input-box">
+              <label for="last-name">LAST NAME</label>
+              <input type="text" id="last-name" name="last-name">
+            </div>
+            <div class="input-box">
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" name="email">
+            </div>
+            <div class="input-box">
+              <label for="phone-number">PHONE NUMBER</label>
+              <input type="tel" id="phone-number" name="phone-number" pattern="\(\d{2}\) \d{5}-\d{4}">
+            </div>
+            <div class="input-box">
+              <label for="password">PASSWORD</label>
+              <input type="password" id="password" name="password">
+            </div>
+            <div class="input-box">
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input type="password" id="confirm-password" name="confirm-password">
+            </div>
+          </fieldset>
+        </form>
+        <button type="button">Create Account</button>
+        <p class="login">Already have an account? <a href="#">Login in</a></p>
+      </div>
     </section>
   </div>
   <script src="script.js"></script>

@@ -3,13 +3,16 @@
   src: url('./assets/fonts/SAKURATA.woff2');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&display=swap');
+
 * {
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
 }
 
-.container {
+.content {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -39,4 +42,29 @@
   font-family: JapanFont;
   color: #eee ;
   font-size: 3rem;
+}
+
+.container {
+  margin: 6rem 40px;
+}
+
+.container .heading-text {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.container form {
+  margin: 50px 0;
+}
+
+.container fieldset {
+  border: 1px solid #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10rem;
 }
